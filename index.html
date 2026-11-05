@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portofolio - Justin William Sitorus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyek">Proyek</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="bg-secondary py-5 text-light mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3 class="">Halo, Saya</h3>
+                    <h1>Justin William Sitorus</h1>
+                    <h4>Mahasiswa | Teknologi Informasi</h4>
+                    <p>Saya mahasiswa Universitas Sumatera Utara jurusan Teknologi Informasi yang tertatik pada pengenmbangan web dan teknologi digital. Senang belajar hal baru dan membuat solusi yang bermanfaat.</p>
+                    <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+                    <button type="button" class="btn btn-outline-light" id="btnhubungi">Hubungi Saya</button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img src="assets/foto.jpeg" alt="justin" width="250" class="rounded-circle img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tentang" class="py-5" style="background-color: #b1b0b0;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 card p-4">
+                    <h4 class="mt-4">Tentang Saya</h4>
+                    <hr>
+                    <p>Saya merupakan mahasiswa Universitas Sumatera Utara tahun 2026,
+                        dengan program studi Teknologi Informasi, alasan saya masuk program studi ini adalah
+                        saya ingin meningkatkan skill saya di bidang teknologi ini, karena menurut saya juga
+                        di era teknologi yang berkembang sangat cepat ini saya tidak mau tertinggal dengan zaman yang semakin canggih.
+                        Dan saya berharap agar saya juga mampu mengikuti pembelajaran di bidang studi ini dengan baik dan tanpa
+                        terlewatkan sama sekali, saya berharap juga kepada dosen dan abang/kaka asisten lab yang mengajar dapat membantu
+                        saya agar saya mampu mengikuti pembelajaran dengan baik.    
+                    </p>
+                </div>
+                <div class="col-md-6 card p-4">
+                    <h4 class="mt-4">SKill yang dimiliki</h4>
+                    <hr>
+                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+                        <img src="assets/1.png" class="rounded skill-img" alt="Skill 1">
+                        <img src="assets/2.jpeg" class="rounded skill-img" alt="Skill 2">
+                        <img src="assets/3.jpeg" class="rounded skill-img" alt="Skill 3">
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="proyek" class="py-5" style="background-color: #babbbc;">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h4 class="mt-4">Proyek Saya</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="assets/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Ini adalah proyek yang saya buat saat belajar pemrograman web dengan salah satu asisten lab yang mengajar saya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="assets/5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Ini adalah proyek yang saya buat saat belajar Java Script dengan asisten lab yang sama saat kami belajar pemrograman web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="assets/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">ini adalah proyek yang saya buat saat belajar Java Script juga namun ini dengan salah satu dosen yang mengajar pemrograman web</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        document.getElementById('btnhubungi').addEventListener('click', function() {
+            alert('Nomor WhatsApp: 085695597226');});
+        </script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+</html>
